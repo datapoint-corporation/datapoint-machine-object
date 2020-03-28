@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp5.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <Authors>Datapoint - Sistemas de Informação, Unipessoal, Lda.</Authors>
+    <Company>Datapoint - Sistemas de Informação, Unipessoal, Lda.</Company>
+    <Product>Datapoint</Product>
+    <Description>It's a simple library for reading GNU's Gettext Machine Object (*.mo) binary files.</Description>
+    <Copyright>Datapoint - Sistemas de Informação, Unipessoal, Lda.</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/datapoint-corporation/datapoint-machine-object/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/datapoint-corporation/datapoint-machine-object.git</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageTags>Globalization, Gettext, Machine, Object</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Version>2.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Datapoint.MachineObject.Abstractions\Datapoint.MachineObject.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>
